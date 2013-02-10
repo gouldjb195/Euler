@@ -6,7 +6,7 @@ public class Euler5
 	{
 		 int[] list = {20, 19, 18, 17, 16, 14, 13, 11, 7};
 		 boolean stop = false;
-		 int i = 2920;
+		 int i = 2520;
 		 while (!stop)
 		 {
 			stop = true;
@@ -17,7 +17,7 @@ public class Euler5
 			}
 			if (stop)
 				System.out.println(i);
-			i+=20;
+			i+=2520;
 		 }
 	}
 }
