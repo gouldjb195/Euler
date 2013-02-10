@@ -11,7 +11,7 @@ public class PrimesUpToN
 	public PrimesUpToN (long n)
 	{
 		list = new ArrayList<Long>();
-		for (long i = 0; i <= n; i++)
+		for (long i = 2; i <= n; i++)
 			if (isPrime(i))
 				list.add(i);
 	}
@@ -23,11 +23,13 @@ public class PrimesUpToN
 
 	boolean isPrime(long n)
 	{
-	    if (n%2==0) return false;
-	    for(int i=3;i*i<=n;i+=2) {
-	        if(n%i==0)
+	    if (n == 2)
+			return true;
+	    if (n%2 == 0)
+	    	return false;
+	    for(int i = 3; i*i <= n; i+=2)
+	        if(n % i == 0)
 	            return false;
-	    }
 	    return true;
 	}
 
