@@ -1,12 +1,9 @@
-import java.util.ArrayList;
-
 /**
 * Given long n, creates a list of all the prime numbers
 * less than or equal to that number.
 */
 public class NthPrime
 {
-	private ArrayList<Long> list;
 	private static long retval;
 
 	public NthPrime (long n)

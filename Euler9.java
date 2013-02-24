@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Euler9
 {
 	public static void main(String[] args)

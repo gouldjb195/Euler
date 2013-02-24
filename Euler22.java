@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.FileWriter;
@@ -6,7 +5,6 @@ import java.io.IOException;
 
 public class Euler22 {
     public static void main (String[] args) throws IOException{
-        ArrayList<String> list = new ArrayList<String>();
         FileReader fr = new FileReader("words.txt");
         FileWriter out = new FileWriter("wordsout.txt");
         BufferedReader br = new BufferedReader(fr);
@@ -34,6 +32,8 @@ public class Euler22 {
             sum += thisWordMult;
         }
         System.out.println(sum);
+        br.close();
+        fr.close();
     }
     
 }

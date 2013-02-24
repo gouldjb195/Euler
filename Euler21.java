@@ -1,4 +1,4 @@
-public class Problem21
+public class Euler21
 {
 	public static final int SIZE = 10000;
     public static void main (String[] args)

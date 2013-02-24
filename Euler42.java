@@ -1,5 +1,5 @@
 import java.io.*;
-public class Problem42
+public class Euler42
 {
     public static final int SIZE = 20;
     public static void main (String[] args) throws IOException
@@ -34,6 +34,7 @@ public class Problem42
                     numMatches++;
         }
         System.out.println(numMatches);
+        br.close();
     }
 }
         

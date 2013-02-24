@@ -1,6 +1,4 @@
-import java.io.*;
-
-public class Problem30
+public class Euler30
 {
     public static void main (String[] args)
     {

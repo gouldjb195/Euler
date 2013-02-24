@@ -8,7 +8,7 @@ public class Euler3
 		long x = 600851475143L;
 		long y = (long) Math.pow(x, 0.5);
 		PrimesUpToN instance = new PrimesUpToN(y);
-		ArrayList list = instance.getList();
+		ArrayList<Long> list = instance.getList();
 		boolean getout = false;
 		long max = 0;
 		while (!getout)

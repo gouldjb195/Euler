@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Euler14
@@ -6,7 +5,6 @@ public class Euler14
 	public static void main(String[] args)
 	{
 		HashMap<Long, Integer> map = new HashMap<Long, Integer>();
-		//int[] collatz = new int[999999];
 		int max = 0;
 		long answer = 0;
 		map.put(1L,1);

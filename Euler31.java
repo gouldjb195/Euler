@@ -1,6 +1,4 @@
-import java.io.*;
-
-public class Problem31
+public class Euler31
 {
     public static final int HUNDRED = 100;
     public static final int FIFTY = 50;
