@@ -2,8 +2,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
-
 public class Euler11 {
 	public static void main(String[] args) throws FileNotFoundException 
 	{
@@ -54,11 +52,8 @@ public class Euler11 {
 					max = temp;
 					System.out.printf("%d %d %d 4\n", max, row, column);
 				}
-				//System.out.printf("%d %d\n", row, column);
 			}
 		}
-		
 		System.out.println(max);
-
 	}
 }
